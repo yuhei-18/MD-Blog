@@ -1,7 +1,5 @@
 # MD-Blog
 
-## 起動
-
 必要ライブラリの一括インストール
 
 `make install`
