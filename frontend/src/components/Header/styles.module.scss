@@ -1,0 +1,15 @@
+.header {
+  background-color: #f8f8f8;
+  height: 7vh;
+
+  .contents {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .user {
+      margin-top: 10px;
+    }
+  }
+}

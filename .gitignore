@@ -1,0 +1,9 @@
+.idea
+
+backend/.idea
+backend/.env
+
+frontend/node_modules/
+frontend/.cache/
+frontend/public
+frontend/.idea/

@@ -1,0 +1,66 @@
+.textarea {
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  height: 93vh;
+  border-right: #eee 3px solid;
+}
+
+.header {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+  display: flex;
+
+  li {
+    width: 100px;
+  }
+
+  li:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+
+.button {
+  width: 100%;
+  display: inline-block;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+
+  &:hover {
+    color: #fff;
+    transition: 0.3s ease;
+    font-weight: bold;
+  }
+}
+
+.save_button {
+  border: solid 2px #3f3;
+
+  &:hover {
+    transition: 0.3s ease;
+    background-color: #3f3;
+  }
+}
+
+.delete_button {
+  border: solid 2px #f00;
+
+  &:hover {
+    transition: 0.3s ease;
+    background-color: #f00;
+  }
+}
+
+.back_button {
+  border: solid 2px #aaa;
+
+  &:hover {
+    transition: 0.3s ease;
+    background-color: #aaa;
+  }
+}

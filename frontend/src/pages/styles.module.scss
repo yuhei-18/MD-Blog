@@ -1,0 +1,36 @@
+.header {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+  display: flex;
+
+  .search {
+    width: 300px;
+    display: flex;
+
+    input {
+      width: 100%;
+    }
+  }
+  li:not(:first-child) {
+    margin-left: 20px;
+    padding-top: 2px;
+  }
+}
+
+.new_button {
+  width: 100%;
+  display: inline-block;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  border: solid 2px #3cf;
+  color: #000;
+
+  &:hover {
+    color: #fff;
+    background-color: #3cf;
+    transition: 0.3s ease;
+    font-weight: bold;
+  }
+}

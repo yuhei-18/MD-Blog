@@ -1,0 +1,46 @@
+.card {
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+  border: solid 2px #eeeeee;
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .title {
+    width: 30%;
+    padding-left: 1%;
+  }
+
+  .author {
+    width: 15%;
+    margin-left: 2%;
+    padding-left: 1%;
+  }
+
+  .publish {
+    width: 15%;
+    margin-left: 2%;
+    padding-left: 1%;
+  }
+
+  .date_info {
+    width: 15%;
+    margin-left: 2%;
+    padding-left: 1%;
+  }
+
+  &:hover {
+    background-color: #eeeeee;
+    transition: 0.3s ease;
+  }
+}
+
+.flex {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
